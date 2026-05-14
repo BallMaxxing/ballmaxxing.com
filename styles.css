@@ -484,6 +484,28 @@ code {
   white-space: nowrap;
   flex-shrink: 0;
 }
+.press-unlinked {
+  font-family: var(--font-serif);
+  font-size: 17px;
+  color: var(--text-dim);
+  flex: 1;
+  line-height: 1.4;
+}
+.press-unlinked em { color: var(--text); font-style: italic; }
+
+.source-note {
+  font-size: 13px;
+  font-family: var(--font-mono);
+  color: var(--text-faint);
+  letter-spacing: .02em;
+  margin-top: 24px !important;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  max-width: 70ch;
+}
+.source-note a { color: var(--text-dim); }
+.source-note a:hover { color: var(--accent); }
+.source-note em { color: var(--text-dim); font-style: italic; }
 
 /* ----- faq ----- */
 

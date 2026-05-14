@@ -6,8 +6,6 @@ The website is about ballmaxxing.
 
 Ballmaxxing is a thing.
 
-The thing is bad.
-
 [site]: https://ballmaxxing.com
 [x]: https://x.com/ballmaxxed
 
@@ -71,17 +69,6 @@ GitHub Pages, from `main`, root directory. The `CNAME` file does the
 custom-domain work. There is no CI. There is no preview environment.
 There is a commit, and then there is a website.
 
-## Editorial position
-
-Every doctor quoted in the press has told people not to attempt the
-practice this site documents. This repository, and the site it produces,
-take that position too. The humor on the site is not an endorsement of
-the practice. It is an editorial choice about how to write through a
-subject that is, by any reasonable account, very strange and very risky.
-
-If you are here for the practice itself, please close the tab and go for
-a walk.
-
 ## Pledge
 
 The site is the site. There is no shop, no Substack, no Patreon, no
@@ -101,7 +88,6 @@ Pull requests are welcome on these terms:
 - Anything pitching a supplement, a coaching tier, a course, a podcast
   collaboration, an "exclusive media partnership," or a brand
   integration: closed without comment.
-- Changes that walk back the medical warnings: closed without comment.
 
 ## Where to find us
 
@@ -112,9 +98,8 @@ That is the entire public surface.
 
 ## Acknowledgments
 
-- Every clinician quoted in the press for being unanimous and clear.
-- The reporters at Vice, *Men's Health*, Tyla, UNILAD, Queerty, and
-  OutKick, who did the legwork.
+- The reporters at Vice, *Men's Health*, and OutKick, who did the
+  legwork. (The other dozen outlets mostly aggregated.)
 - The Wellcome Collection, for letting people use their images.
 - Henry Gray, 1827–1861, for the anatomy.
 - The unnamed engraver of the phrenology head.
@@ -122,9 +107,6 @@ That is the entire public surface.
 
 ## License
 
-The source code in this repository is released under the MIT License —
-do what you want with the markup and the styles. Image attributions and
-their separate licenses are listed in [`assets/CREDITS.md`](assets/CREDITS.md).
-
-The editorial position is not, technically, licensed, but please leave it
-where it is.
+MIT. Do what you want with the markup and the styles. Image attributions
+and their separate licenses are listed in
+[`assets/CREDITS.md`](assets/CREDITS.md).
