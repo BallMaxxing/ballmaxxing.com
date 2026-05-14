@@ -134,10 +134,15 @@ code {
   letter-spacing: -.01em;
 }
 .brand-mark {
-  width: 14px; height: 14px;
-  border-radius: 50%;
-  background: radial-gradient(circle at 30% 30%, var(--accent), #2a8a78 60%, #0a0a0c 100%);
-  box-shadow: 0 0 0 1px var(--border-strong), inset 0 0 6px rgba(255,255,255,.08);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 1;
+  width: 22px;
+  height: 22px;
+  filter: saturate(.95);
+  transform: translateY(-1px);
 }
 .brand-tld { color: var(--text-faint); font-weight: 400; }
 .primary-nav {
@@ -535,8 +540,11 @@ code {
 }
 .footer-brand {
   display: flex;
-  align-items: center;
-  gap: 14px;
+  align-items: flex-start;
+  gap: 12px;
+}
+.footer-brand .brand-mark {
+  margin-top: 2px;
 }
 .footer-name {
   font-family: var(--font-serif);
@@ -781,6 +789,60 @@ code {
   padding-top: 24px !important;
   margin-top: 0 !important;
 }
+
+/* ----- cherries (mascot accents) ----- */
+
+.brand-mark,
+.kicker-cherry,
+.title-cherry,
+.inline-cherry {
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji",
+               "Twemoji Mozilla", "EmojiOne Color", emoji, sans-serif;
+}
+.kicker-cherry,
+.title-cherry,
+.inline-cherry {
+  display: inline-block;
+  font-style: normal;
+  filter: saturate(.92);
+  line-height: 1;
+}
+.kicker-cherry { font-size: 13px; transform: translateY(1px); margin-left: 2px; }
+.title-cherry  { font-size: .7em; margin-left: .3em; vertical-align: middle; opacity: .9; }
+.inline-cherry { font-size: 1em; margin-left: 4px; vertical-align: -2px; }
+
+/* ----- footer X link ----- */
+
+.x-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  padding: 6px 12px 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: .005em;
+  transition: border-color .15s ease, background .15s ease, color .15s ease, transform .15s ease;
+}
+.x-link:hover {
+  border-color: var(--accent-strong);
+  background: rgba(123,231,214,.06);
+  color: var(--text);
+  transform: translateY(-1px);
+}
+.x-link .x-mark {
+  font-family: var(--font-mono);
+  font-size: 15px;
+  color: var(--text-dim);
+  line-height: 1;
+}
+.x-link:hover .x-mark { color: var(--accent); }
 
 /* ----- responsive ----- */
 
