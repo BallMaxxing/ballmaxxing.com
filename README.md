@@ -46,10 +46,10 @@ and three espressos. The rest assembled itself.
 - A grudging acceptance that some pages should not be a single-page
   application
 
-There is no JavaScript on the live page. There is no build step. There is
-no framework. There are no dependencies. There is, conspicuously, no
-analytics. If you would like to know how many people have visited the
-site, the answer is: enough.
+There is no build step. There is no framework. There are no dependencies.
+The only JavaScript on the live page is a privacy-respecting Cloudflare
+pageview counter, no cookies, no fingerprinting. If you would like to
+know how many people have visited the site, the answer is: enough.
 
 ## Running it locally
 
