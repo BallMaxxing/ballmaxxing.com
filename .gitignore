@@ -1,0 +1,6 @@
+.screenshots/
+.playwright-tmp/
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
