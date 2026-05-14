@@ -282,6 +282,44 @@ code {
 }
 .pull footer { font-size: 13px; color: var(--text-faint); font-family: var(--font-mono); }
 
+/* ----- timeline (history) ----- */
+
+.timeline {
+  list-style: none;
+  counter-reset: none;
+  padding: 0;
+  margin: 32px 0;
+  border-top: 1px solid var(--border);
+}
+.timeline li {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 24px;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--border);
+  align-items: baseline;
+}
+.timeline-date {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--accent);
+  letter-spacing: .02em;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.timeline-text {
+  color: var(--text-dim);
+  font-size: 15.5px;
+  line-height: 1.6;
+}
+.timeline-text em { color: var(--text); font-style: italic; }
+.timeline-text a { color: var(--text); text-decoration-color: var(--border-strong); }
+.timeline-text a:hover { color: var(--accent); text-decoration-color: var(--accent); }
+.timeline-text code {
+  font-size: .85em;
+  padding: 1px 5px;
+}
+
 /* ----- lineage ----- */
 
 .lineage-list {
